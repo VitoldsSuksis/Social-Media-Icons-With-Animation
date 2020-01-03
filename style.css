@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ionicons';
+}
+
+.a1 {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.a1  a{
+    width: 70px;
+    height: 70px;
+    display: block;
+    color: white;
+    background: red;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 50px;
+}
+    /* a1 */
+.a1 a::before {
+    content: '\f24d';
+    display: block;
+    margin: 13px 0;
+   transition: all 0.5s;
+}
+
+.a1 a:hover:before {
+    margin-top: -64%;
+}
+
+.a1  a:after {
+    content: '\f24d';
+    display: block;
+   transition: all 0.5s;
+}
+
+ /* a2 */
+
+ .a2 {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.a2  a{
+    width: 70px;
+    height: 70px;
+    display: block;
+    color: white;
+    background: rgb(41, 53, 226);
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+ .a2 a::before {
+    content: '\f239';
+    display: block;
+    margin: 13px 0;
+   transition: all 0.5s;
+}
+
+.a2 a:hover:before {
+    margin-top: -64%;
+}
+
+.a2  a:after {
+    content: '\f239';
+    display: block;
+   transition: all 0.5s;
+}
+
+/* a3 */
+
+.a3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.a3  a{
+    width: 70px;
+    height: 70px;
+    display: block;
+    color: white;
+    background: black;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+ .a3 a::before {
+    content: '\f233';
+    display: block;
+    margin: 13px 0;
+   transition: all 0.5s;
+}
+
+.a3 a:hover:before {
+    margin-top: -64%;
+}
+
+.a3  a:after {
+    content: '\f233';
+    display: block;
+   transition: all 0.5s;
+}
+
+/* a4 */
+
+.a4 {
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.a4  a{
+    width: 70px;
+    height: 70px;
+    display: block;
+    color: white;
+    background: rgb(187, 93, 93);
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+ .a4 a::before {
+    content: '\f350';
+    display: block;
+    margin: 13px 0;
+   transition: all 0.5s;
+}
+
+.a4 a:hover:before {
+    margin-top: -64%;
+}
+
+.a4  a:after {
+    content: '\f350';
+    display: block;
+   transition: all 0.5s;
+}
+
+/* a5 */
+
+.a5 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.a5  a{
+    width: 70px;
+    height: 70px;
+    display: block;
+    color: white;
+    background: dodgerblue;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    font-size: 40px;
+    border-radius: 50px;
+}
+
+ .a5 a::before {
+    content: '\f231';
+    display: block;
+    margin: 13px 0;
+   transition: all 0.5s;
+}
+
+.a5 a:hover:before {
+    margin-top: -64%;
+}
+
+.a5  a:after {
+    content: '\f231';
+    display: block;
+   transition: all 0.5s;
+}
